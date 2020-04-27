@@ -12,7 +12,7 @@
                 <div id="content">
                     <div class="title">
                         <h2>
-                            <a href="{{ route('articles.show', $article) }}">
+                            <a href="{{ $article->path() }}">
                                 {{ $article->title }}
                             </a>
                         </h2>
